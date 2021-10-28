@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>TOP :</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE> EBELN .. EBELP .. MATNR .. WERKS .. MENGE .. MEINS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDTOP:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>E2</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE> it_ekpo-ebeln .. it_ekpo-ebelp .. it_ekpo-matnr .. it_ekpo-werks ..</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> it_ekpo-menge .. it_ekpo-meins</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 20 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX INTENSITY 30</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>WINDOW1</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE>   . . . . . . . . . . . . .  EBELN : &lt;(&gt;&amp;&lt;)&gt;IT_EKKO-EBELN &lt;(&gt;&amp;&lt;)&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE>   . . . . . . . . . . . . .  BSTYP  : &lt;(&gt;&amp;&lt;)&gt;IT_EKKO-BSTYP &lt;(&gt;&amp;&lt;)&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE>   . . . . . . . . . . . . .  EKORG : &lt;(&gt;&amp;&lt;)&gt;IT_EKKO-EBELN &lt;(&gt;&amp;&lt;)&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE>   . . . . . . . . . . . . . .LIFNR : &lt;(&gt;&amp;&lt;)&gt;IT_EKKO-EBELN &lt;(&gt;&amp;&lt;)&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE>   . . . . . . . . . . . . .  BEDAT : &lt;(&gt;&amp;&lt;)&gt;IT_EKKO-EBELN &lt;(&gt;&amp;&lt;)&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P</TDFORMAT>
+     <TDLINE>   . . . . . . . . . . . . . . ERNAM : &lt;(&gt;&amp;&lt;)&gt;IT_EKKO-EBELN &lt;(&gt;&amp;&lt;)&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  BOX FRAME 60 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  INTENSITY 20</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

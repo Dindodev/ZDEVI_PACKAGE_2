@@ -1,0 +1,3 @@
+FUNCTION-POOL Z03FG_CALC_PERCENTAGE.        "MESSAGE-ID ..
+
+* INCLUDE LZ03FG_CALC_PERCENTAGED...         " Local class definition

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Functional group for Functional module</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ07FG_CALCULATORTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ07FG_CALCULATOR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z07F_CALCULATE</FUNCNAME>
+     <SHORT_TEXT>Calculate Module</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LV_VALUE1</PARAMETER>
+       <TYP>P</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LV_VALUE2</PARAMETER>
+       <TYP>P</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RESULT</PARAMETER>
+       <TYP>P</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LV_VALUE1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Value 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_VALUE2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Value 2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Result</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

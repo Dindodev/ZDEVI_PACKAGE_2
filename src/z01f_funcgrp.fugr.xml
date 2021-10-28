@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Grp</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZ01F_FUNCGRP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z01F_FM</FUNCNAME>
+     <SHORT_TEXT>fUNCTION</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>GV_VAR1</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>GV_VAR2</PARAMETER>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>LV_RES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>GV_VAR1</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GV_VAR2</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_RES</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZRTR_DMEE_BANK_EXIT</FUNCNAME>
+     <SHORT_TEXT>DMEE: Template for exit function module (extended interface)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_TREE_TYPE</PARAMETER>
+       <TYP>DMEE_TREETYPE_ABA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TREE_ID</PARAMETER>
+       <TYP>DMEE_TREEID_ABA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ITEM</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PARAM</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_UPARAM</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_EXTENSION</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DMEE_EXIT_INTERFACE_ABA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>C_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>N_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>P_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_TAB</PARAMETER>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_TREE_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DMEE: tree type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TREE_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DMEE:  ID for a DMEE format tree</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Record (type stored in IF_TYPE)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parameter (type stored in IF_PARAM)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_UPARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User parameter (type stored in PARAM_STRUC)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_EXTENSION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DMEE: Extended Interface for Exit Module</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Output return value</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return value of type C</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>N_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return value of type N</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return value of type P</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Internal table (type stored in IF_TAB)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

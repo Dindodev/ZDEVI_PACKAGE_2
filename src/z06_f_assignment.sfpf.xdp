@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.1.20140218.1.907162_SAP" APIVersion="3.6.13324.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2018-10-17T11:00:07Z" uuid="4205031c-5a1f-40ae-9ae9-507359536fae">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="en_US" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="10.5in" w="8in" x="0.25in" y="0.25in"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <?templateDesigner expand 1?>
+            <subform columnWidths="30mm 30mm 35.758mm 35.758mm" layout="table" name="Table1" x="60.325mm" y="139.7mm">
+               <border>
+                  <edge/>
+               </border>
+               <subform id="HeaderRow_ID" layout="row" name="HeaderRow">
+                  <assist role="TH"/>
+                  <draw h="10mm">
+                     <value>
+                        <exData contentType="text/html" xliff:rid="CCACBA8B-FE81-4EA2-889D-DDC003CF7013">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes">   </span><span style="font-weight:bold"><span style="xfa-spacerun:yes">  </span>Sales Doc</span></p></body>
+                        </exData>
+                     </value>
+                     <font baselineShift="0pt" size="12pt" typeface="Times New Roman"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="8B1F280A-1A8F-49D4-BB0D-9C0833E5D0F5">Item</text>
+                     </value>
+                     <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  </draw>
+                  <draw minH="10mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="04DA7A04-5021-4855-A765-79A5556DC8EE">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span style="xfa-spacerun:yes">       </span><span style="font-weight:bold"><span style="xfa-spacerun:yes">  </span></span><span style="font-size:12pt;font-weight:bold">Material</span></p></body>
+                        </exData>
+                     </value>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <occur max="-1"/>
+                  <bind match="none"/>
+                  <draw>
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="4D2294C3-306F-46C7-BF2D-5C5CDCDCBCAD">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span style="xfa-spacerun:yes">       </span><span style="font-size:11pt;font-weight:bold;letter-spacing:0em">Description</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  </draw>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row1">
+                  <assist role="TR"/>
+                  <draw h="10mm" name="Cell1">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell3">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <draw h="10mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                  </draw>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="none"/>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+               <overflow leader="HeaderRow"/>
+               <?templateDesigner expand 0?>
+               <subform layout="row" name="Row1">
+                  <assist role="TR"/>
+                  <draw h="10mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                  </draw>
+                  <draw h="10mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                  </draw>
+                  <draw h="10mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                  </draw>
+                  <draw h="10mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                  </draw>
+                  <?templateDesigner expand 1?></subform>
+            </subform>
+            <draw h="6.644mm" name="Text1" w="60.65mm" x="98.425mm" y="104.775mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="21CBE238-027E-4766-AC52-FE5965A5B995">Sales Document Form</text>
+               </value>
+               <font baselineShift="0pt" size="16pt" typeface="Times New Roman" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 169087 15999 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 19 Sales Document Form 0 1417 13964 0 0 0 "Times New Roman" 1 0 16000 ISO-8859-1?>
+               <?renderCache.line 1417 15483 152503 15483 0 0 0 552?></draw>
+            <field h="9mm" name="TextField1" w="62mm" x="95.25mm" y="117.475mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="2344B249-B2A8-4F02-B090-E6A82BE6AF53">Document</text>
+                  </value>
+               </caption>
+               <bind match="none"/>
+            </field>
+         </pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform h="10.5in" w="8in"/>
+      <proto/>
+      <desc>
+         <text name="version">11.0.1.20140218.1.907162.903801</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 96 24 0003002700280029002B002C0030003600370044004600470048004C004F00500051005200530055005600570058005B DEFHIMSTacdeilmnoprstux?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 56 14 000300270030004400460048004C004F005100520053005500560057 DMaceilnoprst?>
+      <?renderCache.subset "Arial Black" 0 0 ISO-8859-1 4 60 15 0003002700290036004400460048004F0050005100520055005600570058 DFSacelmnorstu?>
+      <?renderCache.subset "Times New Roman" 0 0 ISO-8859-1 4 64 16 000300270029002C0036004400460048004F0050005100520055005600570058 DFISacelmnorstu?>
+      <?renderCache.subset "Times New Roman" 1 0 ISO-8859-1 4 64 16 000300270029002C0036004400460048004F0050005100520055005600570058 DFISacelmnorstu?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 75?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://pwcusadsap003-00004748.cloudapp.net:8000/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="Z06_F_ASSIGNMENT">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <LV_VBELN/>
+         <IT_VBAK dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <MANDT/>
+               <VBELN/>
+               <POSNR/>
+               <MATNR/>
+               <MATWA/>
+               <PMATN/>
+               <CHARG/>
+               <MATKL/>
+               <ARKTX/>
+               <PSTYV/>
+               <POSAR/>
+               <LFREL/>
+               <FKREL/>
+               <UEPOS/>
+               <GRPOS/>
+               <ABGRU/>
+               <PRODH/>
+               <ZWERT/>
+               <ZMENG/>
+               <ZIEME/>
+               <UMZIZ/>
+               <UMZIN/>
+               <MEINS/>
+               <SMENG/>
+               <ABLFZ/>
+               <ABDAT/>
+               <ABSFZ/>
+               <POSEX/>
+               <KDMAT/>
+               <KBVER/>
+               <KEVER/>
+               <VKGRU/>
+               <VKAUS/>
+               <GRKOR/>
+               <FMENG/>
+               <UEBTK/>
+               <UEBTO/>
+               <UNTTO/>
+               <FAKSP/>
+               <ATPKZ/>
+               <RKFKF/>
+               <SPART/>
+               <GSBER/>
+               <NETWR/>
+               <WAERK/>
+               <ANTLF/>
+               <KZTLF/>
+               <CHSPL/>
+               <KWMENG/>
+               <LSMENG/>
+               <KBMENG/>
+               <KLMENG/>
+               <VRKME/>
+               <UMVKZ/>
+               <UMVKN/>
+               <BRGEW/>
+               <NTGEW/>
+               <GEWEI/>
+               <VOLUM/>
+               <VOLEH/>
+               <VBELV/>
+               <POSNV/>
+               <VGBEL/>
+               <VGPOS/>
+               <VOREF/>
+               <UPFLU/>
+               <ERLRE/>
+               <LPRIO/>
+               <WERKS/>
+               <LGORT/>
+               <VSTEL/>
+               <ROUTE/>
+               <STKEY/>
+               <STDAT/>
+               <STLNR/>
+               <STPOS/>
+               <AWAHR/>
+               <ERDAT/>
+               <ERNAM/>
+               <ERZET/>
+               <TAXM1/>
+               <TAXM2/>
+               <TAXM3/>
+               <TAXM4/>
+               <TAXM5/>
+               <TAXM6/>
+               <TAXM7/>
+               <TAXM8/>
+               <TAXM9/>
+               <VBEAF/>
+               <VBEAV/>
+               <VGREF/>
+               <NETPR/>
+               <KPEIN/>
+               <KMEIN/>
+               <SHKZG/>
+               <SKTOF/>
+               <MTVFP/>
+               <SUMBD/>
+               <KONDM/>
+               <KTGRM/>
+               <BONUS/>
+               <PROVG/>
+               <EANNR/>
+               <PRSOK/>
+               <BWTAR/>
+               <BWTEX/>
+               <XCHPF/>
+               <XCHAR/>
+               <LFMNG/>
+               <STAFO/>
+               <WAVWR/>
+               <KZWI1/>
+               <KZWI2/>
+               <KZWI3/>
+               <KZWI4/>
+               <KZWI5/>
+               <KZWI6/>
+               <STCUR/>
+               <AEDAT/>
+               <EAN11/>
+               <FIXMG/>
+               <PRCTR/>
+               <MVGR1/>
+               <MVGR2/>
+               <MVGR3/>
+               <MVGR4/>
+               <MVGR5/>
+               <KMPMG/>
+               <SUGRD/>
+               <SOBKZ/>
+               <VPZUO/>
+               <PAOBJNR/>
+               <PS_PSP_PNR/>
+               <AUFNR/>
+               <VPMAT/>
+               <VPWRK/>
+               <PRBME/>
+               <UMREF/>
+               <KNTTP/>
+               <KZVBR/>
+               <SERNR/>
+               <OBJNR/>
+               <ABGRS/>
+               <BEDAE/>
+               <CMPRE/>
+               <CMTFG/>
+               <CMPNT/>
+               <CMKUA/>
+               <CUOBJ/>
+               <CUOBJ_CH/>
+               <CEPOK/>
+               <KOUPD/>
+               <SERAIL/>
+               <ANZSN/>
+               <NACHL/>
+               <MAGRV/>
+               <MPROK/>
+               <VGTYP/>
+               <PROSA/>
+               <UEPVW/>
+               <KALNR/>
+               <KLVAR/>
+               <SPOSN/>
+               <KOWRR/>
+               <STADAT/>
+               <EXART/>
+               <PREFE/>
+               <KNUMH/>
+               <CLINT/>
+               <CHMVS/>
+               <STLTY/>
+               <STLKN/>
+               <STPOZ/>
+               <STMAN/>
+               <ZSCHL_K/>
+               <KALSM_K/>
+               <KALVAR/>
+               <KOSCH/>
+               <UPMAT/>
+               <UKONM/>
+               <MFRGR/>
+               <PLAVO/>
+               <KANNR/>
+               <CMPRE_FLT/>
+               <ABFOR/>
+               <ABGES/>
+               <J_1BCFOP/>
+               <J_1BTAXLW1/>
+               <J_1BTAXLW2/>
+               <J_1BTXSDC/>
+               <WKTNR/>
+               <WKTPS/>
+               <SKOPF/>
+               <KZBWS/>
+               <WGRU1/>
+               <WGRU2/>
+               <KNUMA_PI/>
+               <KNUMA_AG/>
+               <KZFME/>
+               <LSTANR/>
+               <TECHS/>
+               <MWSBP/>
+               <BERID/>
+               <PCTRF/>
+               <LOGSYS_EXT/>
+               <J_1BTAXLW3/>
+               <J_1BTAXLW4/>
+               <J_1BTAXLW5/>
+               <STOCKLOC/>
+               <SLOCTYPE/>
+               <MSR_RET_REASON/>
+               <MSR_REFUND_CODE/>
+               <MSR_APPROV_BLOCK/>
+               <NRAB_KNUMH/>
+               <TRMRISK_RELEVANT/>
+               <SGT_RCAT/>
+               <VBKD_POSNR/>
+               <VEDA_POSNR/>
+               <HANDOVERLOC/>
+               <HANDOVERDATE/>
+               <HANDOVERTIME/>
+               <TC_AUT_DET/>
+               <MANUAL_TC_REASON/>
+               <FISCAL_INCENTIVE/>
+               <TAX_SUBJECT_ST/>
+               <FISCAL_INCENTIVE_ID/>
+               <SPCSTO/>
+               <REVACC_REFID/>
+               <REVACC_REFTYPE/>
+               <X_DATAAGING/>
+               <ABSTA/>
+               <BESTA/>
+               <CMPPI/>
+               <CMPPJ/>
+               <COSTA/>
+               <DCSTA/>
+               <FKSAA/>
+               <FSSTA/>
+               <GBSTA/>
+               <LFGSA/>
+               <LFSTA/>
+               <LSSTA/>
+               <MANEK/>
+               <RFGSA/>
+               <RFSTA/>
+               <UVALL/>
+               <UVFAK/>
+               <UVPRS/>
+               <UVVLK/>
+               <UVP01/>
+               <UVP02/>
+               <UVP03/>
+               <UVP04/>
+               <UVP05/>
+               <WBSTA/>
+               <EMCST/>
+               <SLCST/>
+               <TOTAL_LCCST/>
+               <REQQTY_BU/>
+               <HANDLE/>
+               <PBS_STATE/>
+               <DUMMY_SLSDOCITEM_INCL_EEW_PS/>
+               <PO_QUAN/>
+               <PO_UNIT/>
+               <MILL_SE_GPOSN/>
+               <MILL_BATCH_SEL_F/>
+               <CPD_UPDAT/>
+               <ZAPCGKI/>
+               <APCGK_EXTENDI/>
+               <ZABDATI/>
+               <AUFPL_OLC/>
+               <APLZL_OLC/>
+               <AD01PROFNR/>
+               <ADMOI/>
+               <ADICC/>
+               <ADPRI/>
+               <ADDNS/>
+               <ADACN/>
+               <LABSG/>
+               <FABSG/>
+               <PR_L_L/>
+               <PR_F_F/>
+               <PR_F_L/>
+               <FERC_IND/>
+               <FSH_SEASON_YEAR/>
+               <FSH_SEASON/>
+               <FSH_COLLECTION/>
+               <FSH_THEME/>
+               <FSH_CRSD/>
+               <FSH_SEAREF/>
+               <FSH_CANDATE/>
+               <FSH_PSM_PFM_SPLIT/>
+               <FSH_VAS_REL/>
+               <FSH_VAS_PRNT_ID/>
+               <FSH_TRANSACTION/>
+               <FSH_ITEM_GROUP/>
+               <FSH_ITEM/>
+               <FSH_VASREF/>
+               <FSH_GRID_COND_REC/>
+               <FSH_PQR_UEPOS/>
+               <KOSTL/>
+               <FONDS/>
+               <FISTL/>
+               <FKBER/>
+               <GRANT_NBR/>
+               <BUDGET_PD/>
+               <IUID_RELEVANT/>
+               <EQUNR/>
+               <EQART/>
+               <J_3GLVART/>
+               <J_3GDATVO/>
+               <J_3GDATBI/>
+               <J_3GBELNRI/>
+               <J_3GPOSNRI/>
+               <PRS_OBJNR/>
+               <PRS_SD_SPSNR/>
+               <PRS_WORK_PERIOD/>
+               <TAS/>
+               <BETC/>
+               <MOD_ALLOW/>
+               <CANCEL_ALLOW/>
+               <PAY_METHOD/>
+               <BPN/>
+               <REP_FREQ/>
+               <FMFGUS_KEY/>
+               <RFM_PSST_RULE/>
+               <RFM_PSST_GROUP/>
+               <PARGB/>
+               <AUFPL_OAA/>
+               <APLZL_OAA/>
+               <VLCENDCU/>
+               <WRF_CHARSTC1/>
+               <WRF_CHARSTC2/>
+               <WRF_CHARSTC3/>
+               <ARSNUM/>
+               <ARSPOS/>
+               <WTYSC_CLMITEM/>
+               <ZZEXT_CODE/>
+               <ZZEXT_MAT/>
+            </DATA>
+         </IT_VBAK>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2018-10-17T11:00:07Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:4205031c-5a1f-40ae-9ae9-507359536fae</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.1.20140218.1.907162.903801</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

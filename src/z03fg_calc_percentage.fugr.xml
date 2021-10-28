@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group For calculating percentag</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ03FG_CALC_PERCENTAGETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ03FG_CALC_PERCENTAGE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z03F_CALC_PERCENTAGE</FUNCNAME>
+     <SHORT_TEXT>Function Module calcu;lating percentage</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_VAR1</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_VAR2</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>IV_RESULT</PARAMETER>
+       <TYP>P</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_VAR1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>parameter 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_VAR2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>parameter 2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Result of calculating percentage</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z03M_CALC_PERCENTAGE</FUNCNAME>
+     <SHORT_TEXT>FUNCTION MODULE FOR CALCULATING PERCENTAGE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PARAM1</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PARAM2</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PERCENTAGE</PARAMETER>
+       <TYP>P</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PARAM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>parameter 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PARAM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>parameter 2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PERCENTAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>percentage</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

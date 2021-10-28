@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_DEF</TOOL>
+   <BADI_DATA>
+    <PGMID>R3TR</PGMID>
+    <OBJ_NAME>Z12R_LIST</OBJ_NAME>
+    <OBJ_TYPE>PROG</OBJ_TYPE>
+    <MAIN_TYPE>PROG</MAIN_TYPE>
+    <MAIN_NAME>Z12R_LIST</MAIN_NAME>
+    <PROGRAM>Z12R_LIST</PROGRAM>
+    <DEF_HOOKS>
+     <ENH_HOOK_DEF_EXT>
+      <EXTID>1</EXTID>
+      <FULL_NAME>\PR:Z12R_LIST\EX:Z12E_ENHCPOINT</FULL_NAME>
+      <ENHMODE>D</ENHMODE>
+      <DEF_UNIT>
+       <INT_TYPE>PE</INT_TYPE>
+       <INT_NAME>START-OF-SELECTION</INT_NAME>
+       <INCLUDE>Z12R_LIST</INCLUDE>
+      </DEF_UNIT>
+     </ENH_HOOK_DEF_EXT>
+    </DEF_HOOKS>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
